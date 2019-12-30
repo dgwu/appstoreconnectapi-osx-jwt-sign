@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13B577423AC87C400277596 /* SwiftJWT in Frameworks */ = {isa = PBXBuildFile; productRef = C13B577323AC87C400277596 /* SwiftJWT */; };
+		C1E711D423AC81BB002FB120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E711D323AC81BB002FB120 /* AppDelegate.swift */; };
+		C1E711D623AC81BB002FB120 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E711D523AC81BB002FB120 /* ContentView.swift */; };
+		C1E711D823AC81BC002FB120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E711D723AC81BC002FB120 /* Assets.xcassets */; };
+		C1E711DB23AC81BC002FB120 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E711DA23AC81BC002FB120 /* Preview Assets.xcassets */; };
+		C1E711DE23AC81BC002FB120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E711DC23AC81BC002FB120 /* Main.storyboard */; };
+		C1E711EA23AC81BC002FB120 /* HOJwtEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E711E923AC81BC002FB120 /* HOJwtEncoderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1E711E623AC81BC002FB120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E711C823AC81BB002FB120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E711CF23AC81BB002FB120;
+			remoteInfo = HOJwtEncoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1E711D023AC81BB002FB120 /* HOJwtEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOJwtEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E711D323AC81BB002FB120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1E711D523AC81BB002FB120 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1E711D723AC81BC002FB120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E711DA23AC81BC002FB120 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1E711DD23AC81BC002FB120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E711DF23AC81BC002FB120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E711E023AC81BC002FB120 /* HOJwtEncoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HOJwtEncoder.entitlements; sourceTree = "<group>"; };
+		C1E711E523AC81BC002FB120 /* HOJwtEncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOJwtEncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E711E923AC81BC002FB120 /* HOJwtEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOJwtEncoderTests.swift; sourceTree = "<group>"; };
+		C1E711EB23AC81BC002FB120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E711CD23AC81BB002FB120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13B577423AC87C400277596 /* SwiftJWT in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E711E223AC81BC002FB120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E711C723AC81BB002FB120 = {
+			isa = PBXGroup;
+			children = (
+				C1E711D223AC81BB002FB120 /* HOJwtEncoder */,
+				C1E711E823AC81BC002FB120 /* HOJwtEncoderTests */,
+				C1E711D123AC81BB002FB120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E711D123AC81BB002FB120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E711D023AC81BB002FB120 /* HOJwtEncoder.app */,
+				C1E711E523AC81BC002FB120 /* HOJwtEncoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E711D223AC81BB002FB120 /* HOJwtEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				C1E711D323AC81BB002FB120 /* AppDelegate.swift */,
+				C1E711D523AC81BB002FB120 /* ContentView.swift */,
+				C1E711D723AC81BC002FB120 /* Assets.xcassets */,
+				C1E711DC23AC81BC002FB120 /* Main.storyboard */,
+				C1E711DF23AC81BC002FB120 /* Info.plist */,
+				C1E711E023AC81BC002FB120 /* HOJwtEncoder.entitlements */,
+				C1E711D923AC81BC002FB120 /* Preview Content */,
+			);
+			path = HOJwtEncoder;
+			sourceTree = "<group>";
+		};
+		C1E711D923AC81BC002FB120 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1E711DA23AC81BC002FB120 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1E711E823AC81BC002FB120 /* HOJwtEncoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E711E923AC81BC002FB120 /* HOJwtEncoderTests.swift */,
+				C1E711EB23AC81BC002FB120 /* Info.plist */,
+			);
+			path = HOJwtEncoderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E711CF23AC81BB002FB120 /* HOJwtEncoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E711EE23AC81BC002FB120 /* Build configuration list for PBXNativeTarget "HOJwtEncoder" */;
+			buildPhases = (
+				C1E711CC23AC81BB002FB120 /* Sources */,
+				C1E711CD23AC81BB002FB120 /* Frameworks */,
+				C1E711CE23AC81BB002FB120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOJwtEncoder;
+			packageProductDependencies = (
+				C13B577323AC87C400277596 /* SwiftJWT */,
+			);
+			productName = HOJwtEncoder;
+			productReference = C1E711D023AC81BB002FB120 /* HOJwtEncoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1E711E423AC81BC002FB120 /* HOJwtEncoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E711F123AC81BC002FB120 /* Build configuration list for PBXNativeTarget "HOJwtEncoderTests" */;
+			buildPhases = (
+				C1E711E123AC81BC002FB120 /* Sources */,
+				C1E711E223AC81BC002FB120 /* Frameworks */,
+				C1E711E323AC81BC002FB120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E711E723AC81BC002FB120 /* PBXTargetDependency */,
+			);
+			name = HOJwtEncoderTests;
+			productName = HOJwtEncoderTests;
+			productReference = C1E711E523AC81BC002FB120 /* HOJwtEncoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E711C823AC81BB002FB120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Daniel Gunawan";
+				TargetAttributes = {
+					C1E711CF23AC81BB002FB120 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C1E711E423AC81BC002FB120 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C1E711CF23AC81BB002FB120;
+					};
+				};
+			};
+			buildConfigurationList = C1E711CB23AC81BB002FB120 /* Build configuration list for PBXProject "HOJwtEncoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E711C723AC81BB002FB120;
+			packageReferences = (
+				C13B577223AC87C400277596 /* XCRemoteSwiftPackageReference "Swift-JWT" */,
+			);
+			productRefGroup = C1E711D123AC81BB002FB120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E711CF23AC81BB002FB120 /* HOJwtEncoder */,
+				C1E711E423AC81BC002FB120 /* HOJwtEncoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E711CE23AC81BB002FB120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E711DE23AC81BC002FB120 /* Main.storyboard in Resources */,
+				C1E711DB23AC81BC002FB120 /* Preview Assets.xcassets in Resources */,
+				C1E711D823AC81BC002FB120 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E711E323AC81BC002FB120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E711CC23AC81BB002FB120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E711D623AC81BB002FB120 /* ContentView.swift in Sources */,
+				C1E711D423AC81BB002FB120 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E711E123AC81BC002FB120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E711EA23AC81BC002FB120 /* HOJwtEncoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1E711E723AC81BC002FB120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E711CF23AC81BB002FB120 /* HOJwtEncoder */;
+			targetProxy = C1E711E623AC81BC002FB120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1E711DC23AC81BC002FB120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E711DD23AC81BC002FB120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E711EC23AC81BC002FB120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1E711ED23AC81BC002FB120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C1E711EF23AC81BC002FB120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HOJwtEncoder/HOJwtEncoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HOJwtEncoder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HOJwtEncoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.HOJwtEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1E711F023AC81BC002FB120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HOJwtEncoder/HOJwtEncoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HOJwtEncoder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HOJwtEncoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.HOJwtEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C1E711F223AC81BC002FB120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HOJwtEncoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.HOJwtEncoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOJwtEncoder.app/Contents/MacOS/HOJwtEncoder";
+			};
+			name = Debug;
+		};
+		C1E711F323AC81BC002FB120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HOJwtEncoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.HOJwtEncoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOJwtEncoder.app/Contents/MacOS/HOJwtEncoder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E711CB23AC81BB002FB120 /* Build configuration list for PBXProject "HOJwtEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E711EC23AC81BC002FB120 /* Debug */,
+				C1E711ED23AC81BC002FB120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E711EE23AC81BC002FB120 /* Build configuration list for PBXNativeTarget "HOJwtEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E711EF23AC81BC002FB120 /* Debug */,
+				C1E711F023AC81BC002FB120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E711F123AC81BC002FB120 /* Build configuration list for PBXNativeTarget "HOJwtEncoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E711F223AC81BC002FB120 /* Debug */,
+				C1E711F323AC81BC002FB120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C13B577223AC87C400277596 /* XCRemoteSwiftPackageReference "Swift-JWT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/Swift-JWT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C13B577323AC87C400277596 /* SwiftJWT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C13B577223AC87C400277596 /* XCRemoteSwiftPackageReference "Swift-JWT" */;
+			productName = SwiftJWT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C1E711C823AC81BB002FB120 /* Project object */;
+}
